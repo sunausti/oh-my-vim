@@ -34,13 +34,15 @@
     ``` 
 
 6. Enter the directory, and generate `tags` & `cscope.out` for Vim, maybe for a coffee of time XD
-
+> obviously, should install [ctags](http://ctags.sourceforge.net/) and [cscope](http://cscope.sourceforge.net/) firstly
+   ```
+   sudo apt install universal-ctags  cscope -y
+   ```
+   and then
     ```
     ctags -R *
     cscope -Rbkq
     ```
-> obviously, should install [ctags](http://ctags.sourceforge.net/) and [cscope](http://cscope.sourceforge.net/) firstly
-> sudo apt install universal-ctags  cscope -y
 
 7. Execute `Vim` current directory and then Update Vim Plugin, maybe for another coffee of time XD. It depends on your network solution.
 
