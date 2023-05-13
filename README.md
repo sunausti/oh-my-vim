@@ -16,7 +16,7 @@
 3. clone this [Repo.](https://github.com/mintisan/oh-my-vim) to anywhere you like, such as `HOME`:
 
     ```
-    git clone https://github.com/mintisan/oh-my-vim.git ~/oh-my-vim
+    git clone https://github.com/sunausti/oh-my-vim.git ~/oh-my-vim
     ```
 
 4. Change the directory you just cloned(maybe `cd ~/oh-my-vim`), create symbolic link to `~/.vimrc`
@@ -40,6 +40,7 @@
     cscope -Rbkq
     ```
 > obviously, should install [ctags](http://ctags.sourceforge.net/) and [cscope](http://cscope.sourceforge.net/) firstly
+> sudo apt install universal-ctags  cscope -y
 
 7. Execute `Vim` current directory and then Update Vim Plugin, maybe for another coffee of time XD. It depends on your network solution.
 
