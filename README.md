@@ -38,7 +38,9 @@
    ```
    sudo apt install universal-ctags  cscope -y
    ```
+   
    and then
+   
     ```
     ctags -R *
     cscope -Rbkq
